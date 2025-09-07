@@ -1,0 +1,22 @@
+table {
+    width: 100%;
+    margin: -5px;
+    border-spacing: 5px;
+    border-collapse: separate;
+}
+
+table tr th, table tr td {
+    background-color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+table tr td a {
+    padding: 10px;
+    background-color: #0077d5;
+    color: #fff;
+    font-weight: 600;
+    margin-right: 10px;
+    border-radius: 5px;
+}

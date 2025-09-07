@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #000000;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+/* @media (prefers-color-scheme: dark) {
+  :root {
+    --background: #ffffff;
+    --foreground: #000000;
+  }
+} */
+
+.menu {
+    background-color: #ffffff;
+}
+
+.menu .cart-button {
+    background-color: #0079de;
+    color: #ffffff;
+    font-weight: bolder;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu .cart-button svg {
+    font-size: 24px;
+    margin-right: 4px;
+}
+
+.menu .navbar ul li {
+    color: #000000;
+    margin-right: 40px;
+    font-weight: bolder;
+}
+
+.content {
+    height: 89.5vh;
+
+    background-color: #0079de;
+}

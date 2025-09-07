@@ -1,0 +1,24 @@
+.menu-lateral {
+    background-color: #fff;
+    padding: 20px;
+    height: 100vh;
+}
+
+.menu-lateral .logo-area img {
+    width: 100%;
+}
+
+.menu-lateral .navbar li a {
+    display: block;
+    background-color: #e5e5e5;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.menu-lateral .navbar li a:hover {
+    background-color: #0077d5;
+    color: #fff;
+}

@@ -1,0 +1,26 @@
+.listEndereco {
+    display: grid;
+    grid-template-columns: 32% 32% 32%;
+    gap: 2%;
+}
+
+.listEndereco .endereco {
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.listEndereco .endereco span.enderecoClassificacao {
+    display: block;
+    width: fit-content;
+    background-color: red;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.listEndereco .endereco p span {
+    font-weight: bold;
+}
