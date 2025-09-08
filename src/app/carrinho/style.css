@@ -1,0 +1,53 @@
+.carrinho .info-compra {
+    border-right: 1px solid #e5e5e5
+}
+
+.carrinho .info-compra .info {
+    border-top: 1px solid #e5e5e5;
+    margin-top: 25px;
+    padding: 10px 0;
+}
+
+.carrinho .info-compra .info.endereco .endereco-item {
+    width: max-content;
+    background-color: #e5e5e5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+}
+
+.carrinho .info-compra button {
+    color: #fff;
+    background-color: #0079de;
+    border-radius: 5px;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-weight: bold;
+}
+
+.carrinho .info-compra .info.pagamento .cartoes .cartao {
+    width: 95%;
+    background-color: #e5e5e5;
+    padding: 15px;
+    border-radius: 5px;
+    margin-top: 10px;
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+}
+
+.itens-carrinho a {
+    display: block;
+    text-align: center;
+    background-color: #0079de;
+    width: 100%;
+    margin-top: 20px;
+    padding: 10px 15px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+    border-radius: 5px;
+}
+

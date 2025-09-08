@@ -1,0 +1,15 @@
+.item-carrinho p.autor {
+    font-size: 14px;
+}
+
+.item-carrinho p.preco {
+    font-weight: bold;
+    margin: 5px 0;
+}
+
+.item-carrinho input {
+    width: 40%;
+    margin-top: 5px;
+    border-radius: 5px;
+    text-align: center;
+}
